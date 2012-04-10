@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Content-Type: text/plain"
+echo
+
+../addUser
+if [ $? -ne 0 ]; then
+  echo Failed to add dummy accounts
+else
+  echo Successfully added dummy accounts
+fi

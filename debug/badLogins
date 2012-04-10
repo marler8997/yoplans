@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Content-Type: text/plain"
+echo
+echo "SELECT * FROM badLogins;" | ../m 2>&1
+if [ $? -ne 0 ]; then
+  echo FAILED
+else
+  echo SUCCESS
+fi

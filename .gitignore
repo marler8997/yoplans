@@ -1,0 +1,4 @@
+*.o
+www/index
+www/login
+www/register

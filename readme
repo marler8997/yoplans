@@ -1,0 +1,16 @@
+
+
+
+
+----------------------------------------
+ Extra Libraries/Packages
+----------------------------------------
+
+----------------------------------------
+ Web Server Setup Notes
+----------------------------------------
+DocumentRoot "hb/www"
+Cgi-Scripts "index" "login" "register"
+UrlAlias "/debug" "../debug"
+The entire "debug" directory is cgi scripts
+

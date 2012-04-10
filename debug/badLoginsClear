@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Content-Type: text/plain"
+echo
+
+echo "TRUNCATE TABLE badLogins;" | ../m 2>&1
+if [ $? -ne 0 ]; then
+  echo Failed to clear Bad Logins
+else
+  echo Successfully cleared Bad Logins
+fi

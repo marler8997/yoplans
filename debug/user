@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Content-Type: text/plain"
+echo
+if [ -z $QUERY_STRING ]; then
+  echo "Please supply a User ID.  (If you are using a browser, type user?<UserID> in the url)"
+else
+  echo "SELECT * from users WHERE uid=$QUERY_STRING" | ../m 2>&1 | tr -cd "[:print:]\n\t"
+fi

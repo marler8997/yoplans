@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Content-Type: text/plain"
+echo
+echo "SELECT * from users" | ../m 2>&1 | tr -cd "[:print:]\n\t"

