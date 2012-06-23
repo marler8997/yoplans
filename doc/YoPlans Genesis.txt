@@ -1,0 +1,131 @@
+
+“It’s not in my plans until it’s in YoPlans!”
+					- Jared Bartschi
+
+=====================================================================================================
+Priority 1: FIND
+=====================================================================================================
+Problem: People have a hard time finding things to do (Boredom).
+	Solution: Help people find things to do, especially with friends (Eliminate Boredom!).
+		How: Maintain a database of "People" and "Things to do".
+			Details: Database of People, Types of events, Scheduling, Locations, and categorizations of each of these such as people's interests, their friends, event types, etc.
+		How: Help people decide what to do with friends by providing lists that can be filtered by criteria such as (Area,Price,Schedules,Categories (eating/movies/physical/sports/...))
+		
+		Connection: Coordinate and connect them.
+			How: Provide mechanisms to share events.
+	
+=====================================================================================================
+Priority 2: CREATE
+=====================================================================================================
+Problem: Event coordinators have a hard time "Getting the word out".
+	Note: Solving "Priority 2" is part of the solution to "Priority 1". It is only part of the solution because "things to do" does not always mean it has to be a coordinated event.
+	SubProblem: People have a hard time finding events they would like to go to (This is a restatement of the first problem).
+	SubProblem: People and Businesses have a hard time informing people about their events.
+		Solution: Provide mechanisms for people/businesses to share events with people who would be interested
+			How: Allow people to subscribe to other people/busnesses that create events (subscribe to your church/school)
+			How: When people sign up for the site, the more about themselves they enter in the system, the more applicable events they will be able to find
+				- i.e. If I go to college at UI, then the system will send me all events created by UI
+				- Event creators should be able to sub-categorize events coming from them, so UI could have events sorted by college, interest, campus, and people should be able to edit their subscription to fit into the correct category
+			Note: This requirement would probably mean some type of scheduling system, and would therefore also serve as a personal private scheduling system
+			Note: It's important to implement some type of reminder system
+
+=====================================================================================================
+Priority 3: COORDINATE
+=====================================================================================================
+Problem: Coordinating schedules
+	Solution: Provide automatic schedule synchronization based a database of people, schedules and events
+		Note: This means the site will be able to provide all parties of an event with data in a quick, easy to read format that will tell them what times could work for everyone
+		Note: we need to make sure that we maintain a good amount of privacy without limiting the sites functionality
+		Note: Normally in order to coordinate an event with a friend you must wait for a response.  With the schedule database, people can allow others to query their schedule when setting up events.  This way, the event coordinator can get immediate feedback as to the potential that a guest will be available.	
+		
+
+=====================================================================================================
+Features
+=====================================================================================================
+	Note on Solution to Priority 3: See things in a Calender format.
+		Note: Seeing informaiton organized by time makes perceiving information faster.		
+
+	Note on Solution to Priority 1: Provide mechanisms to filter incoming and outgoing information.		
+
+	Idea for solution to Priority 1 and Priority 3: Have viewable calenders that you can drag events from into your own calender
+		Note: When you're viewing other calenders, your calender would be minimized in the corner so you can drag things to it
+
+	Idea for Growth problem: Add an app on facebook that would be a subset of the site, maybe put an app "find things to do" that people can go to on facebook, and then have people go to yoplans.com to put it on their calender
+
+	Addon for Priority 3: Reminder system (texting/email/facebook)
+
+	Idea for Solution to Priority 3: Phone apps for the yoplans calender
+
+	Idea for Solution to Priority 1: Some type of way to browse events (Then charge businesses for their evets to get more exposure)
+
+2. Help people meet and make new friends
+	- Get people together in real life, with common interests
+	- By Friends, we mean, people you enjoy and do spend time with
+
+	4. The ability to modify and create information intuitively
+		- Visually drag and drop events between calenders
+
+	5. Provide tools for effective and easy planning
+		- Provide information on event in your area
+		- Start an event, and fill in as much as you can, and let the website do the rest!
+
+
+	
+	7. Provide a public modifiable database of information to create events.
+		- Information for events include places, people, times, pricing, scheduling details, contact info
+
+	8. Provide mecahanisms to coordinate event creation with other people
+		- Ability to send invites to specific people, or to a category of people, 
+
+	9. The computer can have a life on it's own, and start creating it's own events!!!
+		- Helps "Help people make new friends"
+
+	10. Subscriptions
+		Someone at UI can subscribe to UI's events, and UI will
+
+	11. Special Profile's for businesses that have been verified securely by YoPlans
+		- Then people can know that the business is the real business.
+		- We verify that their business information (name, address, contact info, etc. is all correct)
+		- We can charge busness for these special profiles
+
+	12. Businesses can buy "Featured events".  They can pay money to have their events listed first, or on the main page.  They can create their own ads that people will see for some type of fee.
+
+
+	13. Vote on events already 
+	14. The wikipedia of event planning
+		- All the data is user driven
+		- User created and user verified
+
+	15. The pandora of planning
+		- List of events that can be filtered
+
+	16. A very robust event creating system.  Someone can create an event, fill in what they want/know, and have the website's database coordinate the REST!!! HELLS YES!
+
+Note
+	Remember when designing the interface, make it really simple to setup, hide all the customization, but also allow for people to do as much customization as they want, but don't require it.
+
+
+	What kind of information do we want to share	
+
+NOTE: People might get addicted to feeding the site information about their area.  They will love getting their name associated with an event that they created!
+
+IDEA: Sponsored events "Let businesses pay money to allow their events to go to the top"
+	
+Question: What should the site be?
+
+After you are logged on, what content should be displayed?
+
+1. Access to you inbox
+2. Access to your friends
+	- Access to a group of friends?
+3. News about activity from friends
+	- Ability to change how you view the activity (organize by time/person/type of activity)
+	- Maybe call this part 'The Web'
+
+	
+	
+	
+=====================================================================================================
+Use Cases
+=====================================================================================================
+Scenario: Person X, wants to invite friends to an event at Place Y sometime within the next week. (This type of event typically occurs between time A and time B).

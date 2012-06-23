@@ -1,0 +1,37 @@
+
+
+Calender Features
+
+
+	- View of a main calender
+		- Events show up as icons on each day, different types of events might have different icons, and if there are multiple of the same type of event, a number will appear by the icon
+		- 
+
+	1. A list of different calenders used to switch between calenders and also drag an drop items
+		- A personal calender
+		- A "bulletins" calender
+	
+
+	2. Drag and drop events between calenders
+		- Dragging an event from a calender to the "list" where you personal calender icon is, will automatically put that event in your calender
+
+
+	3. Drag and drop events to another friend to invite them
+
+
+Definition: A "Bulletin" is subscibing to a groups events
+
+
+
+Groups
+	- The Administrator is self explanatory
+	- An Organizer is someone who can create events in a bulletin, maybe only in a subcategory of the bulletin
+
+Buckets
+	- A "grouping" of friends that you send common events
+
+Main Page
+	- Got the Schedule View (A Calender)
+	- Got the Events View
+		- You see the bulletins your subscribed
+		- Your friends shared events

@@ -10,7 +10,7 @@ all: pages
 pages: ${PAGES}
 
 deploy: all
-	cp -r www/* /var/www/yp
+	cp -r www/* /var/www/yoplans
 
 
 

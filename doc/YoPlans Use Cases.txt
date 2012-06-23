@@ -1,0 +1,67 @@
+
+=================================================
+ Use Case Format
+=================================================
+
+1. Give it a name
+	- As short as possible
+	- Use meaningful verbs
+	- Use Present tense
+	- Don't identify the actor in the name
+
+2. Define the 'Actors'
+	- i.e. User, Business, Admin, Organizer, YoPlans, etc...
+
+3. Give it a 'Description'
+
+4. Write down all 'Assumptions' (optional)
+	- i.e. This use case does not deal with ...
+	
+5. Write down 'Preconditions' (optional)
+	- What has to happen before this use case can occur?
+	
+8. Postconditions (optional)
+	- What is now true or not true after this use case is completed?
+
+6. Normal Flow
+	- Main steps in order to complete this use case
+	
+7. Alternative Flow (optional)
+	- Alternative steps that users can take to complete the same effect, or a slightly altered effect
+	
+
+=================================================
+ Tips
+=================================================
+1. Use cases don't have to be perfect, they are meant to be refined
+2. Define the 'Happy Path' use cases first
+3. Identify 'Re-use' opportunitys for Sub-Use Cases
+4. Create a "Use Case Index"
+	Use Case Name		Primary Actor		Complexity		Priority
+	Place a bid			Buyer				High			1
+	Create Account		User				Medium			1
+	...
+
+	
+=================================================
+ Example	
+=================================================
+
+Name: Find Public Event 
+
+Actors: User (primary), YoPlans
+
+Desciprtion: The user logs on to the site, and wishes to find something to do
+
+Post-conditions:
+	- The User will now be able to move an event to their schedule, or share the event with friends
+
+Normal Flow:
+	1. The user indicates that they wish to find an event
+	2. The user enters criteria for the event and submits a query to YoPlans
+	3. YoPlans returns a list of potential events that fit the users criteria
+
+Alternative Flow:
+	
+	After Step 3: The user wishes to change/refine their search criteria, and resubmits the new criteria to YoPlans
+	At Step 3
