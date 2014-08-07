@@ -1,0 +1,51 @@
+
+
+YoPlans contains a database of objects that represent events or potential events
+
+
+
+Who: 
+What: 
+When: 
+Where: 
+Why: 
+
+
+
+
+Who
+----------------------------------------
+1. List of people
+2. People restricted by a set of criteria such as
+   - Location
+   - Age
+   - Interests
+   - Friend Connections*
+
+
+What
+----------------------------------------
+Sometimes it is hard to seperate What from the other criteria (such as Who/When/Why).  Generally the "What" is referring to some type of action or at least some verb.
+
+1. A specific action
+2. A category of actions
+
+
+When
+----------------------------------------
+A. Separately could have a time length
+
+B. 
+1. Specific time
+2. Time range
+3. List of users who want to come and specify times they can't come
+
+Where
+----------------------------------------
+1. Single Address/LattitudeLongitude
+
+
+
+Why
+----------------------------------------
+     
